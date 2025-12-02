@@ -11,7 +11,7 @@ This project demonstrates the use of **Agentic Retrieval-Augmented Generation (R
 - **News Aggregation**: Scrapes and analyzes news articles using a local RAG pipeline with **MongoDB** and **ChromaDB**.
 - **Privacy-First**: All data processing and LLM inference happen locally on your machine.
 
-## 🏗️ High Level Architecture
+## 🏗️ High-Level Architecture
 
 ![High Level Design](documentation/high_level_design.png)
 
@@ -85,7 +85,7 @@ streamlit run streamlit_app.py
 *   **Generation**: LLM answers the user query based on the context.
 
 ### Stock Data RAG (SQL)
-*   **SQL Generation**: LLM converts natural language questions (e.g., verage close price of TCS last week) into SQL queries.
+*   **SQL Generation**: LLM converts natural language questions (e.g., Average close price of TCS last week) into SQL queries.
 *   **Execution**: Runs the query against PostgreSQL.
 *   **Response**: LLM interprets the SQL result and provides a natural language answer.
 
